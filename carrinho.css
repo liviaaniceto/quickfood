@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    align-items: center;
+   
+  }
+ 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(139, 32, 209);
+    height: 15vh;
+  }
+.menu img{
+    height: 15vh;
+      }
+.menu a {
+  
+    font-style:normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    color: #d0bcec;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+        
+      }
+      
+.menu a:hover,
+.menu a:focus {
+        background-color: rgb(255, 153, 58);;
+        border-radius: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+      }
+  body {
+    background-image: url("./fotos/carrinho.png");
+  }
+
+  .wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .section {
+    background-color: rgb(216, 184, 249);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+  }
+
+  .container {
+ 
+    margin-bottom: 20px;
+   
+   
+  }
+
+  .container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .produto {
+    margin-bottom: 10px;
+  }
+
+  .produto .info {
+    display: inline-block;
+    width: 70%;
+  }
+
+  .produto .info p {
+    margin: 0;
+  }
+
+  .produto form {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+  }
+
+  .produto button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+  }

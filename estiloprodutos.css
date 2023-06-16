@@ -1,0 +1,116 @@
+
+  body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: white ;
+   
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(139, 32, 209);
+    height: 15vh;
+  }
+.menu img{
+    height: 15vh;
+      }
+.menu a {
+  
+    font-style:normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    color: #d0bcec;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+        
+      }
+      
+.menu a:hover,
+.menu a:focus {
+        background-color: rgb(255, 153, 58);;
+        border-radius: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+      }
+
+      img {
+        vertical-align: middle;
+        border-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    .lanche{
+        position: absolute;
+        left: 350px;
+        top: 350px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+    .frios{
+        position: absolute;
+        left: 570px;
+        top: 350px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+
+    .natural{
+        position: absolute;
+        left: 800px;
+        top: 350px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+    
+    .pizza{
+        position: absolute;
+        left: 1000px;
+        top: 350px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+    
+    .sorvete{
+        position: absolute;
+        left: 350px;
+        top: 490px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+
+    .bar{
+        position: absolute;
+        left: 560px;;
+        top: 490px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+
+    .oriental{
+        position: absolute;
+        left: 800px;
+        top: 490px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+    }
+
+    .hortifrute{
+        position: absolute;
+        left: 1000px;
+        top: 490px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        
+    }
+
+ 
